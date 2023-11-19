@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #01a2a8;
+    color: white;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    border-radius: none;
+}
+
+.nav_links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.contact-container {
+    max-width: 40vw;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#main {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #AB1449;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #002c5a;
+}
+
+footer {
+    background-color: #AB1449;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.social-icons a i{
+    line-height: 30px;
+    font-size: 20px;
+    -webkit-transition: all 200ms;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms;
+    -moz-transform: scale(1);
+    transition: all 200ms;
+    transform: scale(1);
+}
+
+.social-icons a:hover i{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+
+}
+
+.nav_links_bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_links_bottom a {
+    margin: 0 15px;
+    color: #fff;
+}
+
+.nav_links_bottom a:last-child {
+    margin-right: 0;
+}
+
