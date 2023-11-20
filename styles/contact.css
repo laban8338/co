@@ -2,12 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 90vh;
+    background-image: url(../assets/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20px);
 }
 
 header {
     background-color: #01a2a8;
     color: white;
-    padding: 10px;
+    padding: 1px;
 }
 
 .nav {
@@ -28,6 +34,7 @@ header {
 
 .contact-container {
     max-width: 40vw;
+    height: 65vh;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff; 
@@ -63,8 +70,8 @@ footer {
     background-color: #AB1449;
     color: white;
     text-align: center;
-    padding: 1px;
-    position: fixed;
+    padding: 10px 0 ;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;

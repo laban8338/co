@@ -1,3 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../assets/image4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(30px);
+}
 
 h1 {
     margin-bottom: 8%;
@@ -35,7 +45,7 @@ h1 {
   }
   
   .login-container {
-    background-color: white;
+    background-color: none;
     padding: 7%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 40vw;
@@ -72,3 +82,5 @@ h1 {
     border: none;
     margin-top: 3%;
   }
+
+ 

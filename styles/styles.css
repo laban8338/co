@@ -43,7 +43,7 @@ header{
     z-index: -1;
     filter: blur(90px);
     height: 100%;
-    background: url(images/plp-logo.png) no-repeat center;
+    background: url(../assets/image4.jpg) no-repeat center;
     background-size: cover;
 }
 
