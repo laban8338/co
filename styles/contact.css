@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    height: 90vh;
     background-image: url(../assets/image4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +33,7 @@ header {
 
 .contact-container {
     max-width: 40vw;
-    height: 65vh;
+    height: 70vh;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff; 

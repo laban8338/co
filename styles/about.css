@@ -35,10 +35,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 800px;
+    max-width: 90%;
     margin: 20px auto;
     padding: 20px;
     background-color: none;
+    min-height: 70vh;
 }
 
 .about-image img {

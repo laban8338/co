@@ -34,9 +34,53 @@ const createAcctBtn = document.getElementById("create-acct-btn");
   const createacctSection = document.getElementById("create-acct");
   const main = document.getElementById("main");
 
-  let email, password,  signupEmail, signupPassword,confirmSignupEmail, confirmSignUpPassword;
+  let email, 
+   password,  
+   signupEmail, 
+   signupPassword,
+   confirmSignupEmail,
+   confirmSignUpPassword;
+
+createAcctBtn.addEventListener("click", () =>{
+  var isVerified = true;
+
+  signupEmail = signupEmailIn.value 
+  confirmSignupEmail = confirmSignupEmailIn.value 
+  if(signupEmail != confirmSignupEmail){
+    window.alert("Emails do not match");
+    isVerified = false
+  }
+
+  signupPassword = signupPasswordIn.value 
+  confirmSignUpPassword = confirmSignupPasswordIn.value
+  if(signupPassword != confirmSignUpPassword){
+    window.alert("passwords do not match");
+    isVerified = false
+  }
+  //else if(){
+
+  //}else{
+
+ // }
+
+if(signupEmail == null || confirmSignupEmail == null || signupPassword == null || confirmSignUpPassword == null ){
+  window.alert("please fill in the inputs")
+  isVerified = false;
+}
+if(isVerified){
+  createUserWithEmailAndPassword(auth, signupEmail, signupPassword)
+  .then((UserCredentials) => ){
+    window.alert("Success! Account Created");
+  }
 
 
+  }).catch((error) => {
+    window.alert(error.message)});
+  
+
+submitButton.addEventListener("click", () =>{
+
+})
 
 
   //Login/ Register navigation functionality
