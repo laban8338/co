@@ -5,16 +5,17 @@ import {
   signInWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBIAwvw1tLIuEVudTdBycNPZoJ8CT7tO0s",
-  authDomain: "compassion-todo-app-7197d.firebaseapp.com",
-  databaseURL: "https://compassion-todo-app-7197d-default-rtdb.firebaseio.com",
-  projectId: "compassion-todo-app-7197d",
-  storageBucket: "compassion-todo-app-7197d.appspot.com",
-  messagingSenderId: "610981354257",
-  appId: "1:610981354257:web:7568e6944d96cc7ab8cab0",
-  measurementId: "G-HY33Z6L6QJ",
-};
+    apiKey: "AIzaSyC5WSlpZ6YDYqJnr16rMmlziG6h9stN82M",
+    authDomain: "compassion-todo-app-ef2a3.firebaseapp.com",
+    databaseURL: "https://compassion-todo-app-ef2a3-default-rtdb.firebaseio.com",
+    projectId: "compassion-todo-app-ef2a3",
+    storageBucket: "compassion-todo-app-ef2a3.appspot.com",
+    messagingSenderId: "532294208063",
+    appId: "1:532294208063:web:36a60b7ce32bc62f8e868a",
+    measurementId: "G-NWLS46EMF4"
+  };
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth();
