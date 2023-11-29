@@ -48,6 +48,7 @@ let email,
   confirmSignupEmail,
   confirmSignUpPassword;
 
+
 createAcctBtn.addEventListener("click", () => {
   var isVerified = true;
 
@@ -91,7 +92,19 @@ createAcctBtn.addEventListener("click", () => {
   }
 });
 
-submitButton.addEventListener("click", () => {});
+submitButton.addEventListener("click", () => {
+  email = emailInput.value;
+  password = passwordInput.value;
+
+  signInWithEmailAndPassword(auth, email, password)
+  .then(() => {
+    window.alert("Success! Welcome back")
+    window.location = "../pages/createTask.html";
+  })
+  .catch((error) => {
+    window.alert("An error occured, please try again");
+  });
+});
 
 // Login / Register navigation functionality
 signupButton.addEventListener("click", () => {
